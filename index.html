@@ -33,7 +33,10 @@
     <section class="calendar">
       <header class="cal-head">
         <button class="nav" id="prev" aria-label="上个月">‹</button>
-        <button class="title" id="title" aria-label="选择年月" aria-haspopup="true"></button>
+        <div class="selects">
+          <select id="sel-year" aria-label="年份"></select>
+          <select id="sel-month" aria-label="月份"></select>
+        </div>
         <button class="nav" id="next" aria-label="下个月">›</button>
       </header>
       <div class="weekdays">
@@ -41,19 +44,6 @@
       </div>
       <div class="grid" id="grid" role="grid"></div>
       <button class="back-today" id="back-today" hidden>回到今天</button>
-
-      <div class="picker" id="picker" hidden role="dialog" aria-label="选择年月">
-        <header class="cal-head">
-          <button class="nav" id="p-prev" aria-label="上一页">‹</button>
-          <button class="title" id="p-title"></button>
-          <button class="nav" id="p-next" aria-label="下一页">›</button>
-        </header>
-        <div class="picker-grid" id="p-grid"></div>
-        <div class="picker-foot">
-          <button id="p-today">今天</button>
-          <button id="p-close">取消</button>
-        </div>
-      </div>
     </section>
   </main>
 

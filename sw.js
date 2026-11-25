@@ -1,5 +1,5 @@
 // 修改任何静态文件后请递增版本号，以便用户获取新版本
-const CACHE = 'lunar-calendar-v2';
+const CACHE = 'lunar-calendar-v3';
 const ASSETS = [
   './',
   './index.html',
